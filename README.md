@@ -127,7 +127,7 @@ python main.py
 └── 📄 README.md                  # This file
 ```
 
-## 🔧 Module Details
+##  Module Details
 
 ### `veiculos.py`
 Handles all vehicle-related operations:
@@ -177,7 +177,7 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
