@@ -9,27 +9,27 @@
 
 ## ✨ Features
 
-### 🚗 Vehicle Management
+###  Vehicle Management
 - **Add new vehicles** with detailed information (brand, model, price, license plate, year, color)
 - **View vehicle inventory** with complete listings
 - **Persistent storage** of vehicle data
 
-### 👥 User Management
+###  User Management
 - **Register new customers** with contact details (name, NIF, phone, email)
 - **View customer database** with all registered users
 - **Secure data persistence**
 
-### 🛒 Purchase Management
+###  Purchase Management
 - **Record new purchases** by linking customers to vehicles
 - **Track purchase history** with timestamps
 - **View all completed transactions**
 
-### 💾 Data Persistence
+###  Data Persistence
 - **Save all data** to files (vehicles, users, purchases)
 - **Load data** from previous sessions
 - **Automatic backup** capabilities
 
-## 🎯 Menu Options
+##  Menu Options
 
 The application provides the following commands:
 
@@ -45,7 +45,7 @@ The application provides the following commands:
 | `c` | Load all data from files |
 | `x` | Exit application |
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -111,7 +111,7 @@ python main.py
 - Use `c` to load previously saved data
 - Data files are stored with `.pk` extension
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 📦 stand-xocorro/
@@ -148,14 +148,14 @@ Core application logic:
 - Manages application state (lists of vehicles, users, purchases)
 - Handles user input and routing
 
-## 🛡️ Data Storage
+##  Data Storage
 
 Data is persisted using Python's pickle format (`.pk` files):
 - **lista_de_veiculos.pk** - Vehicle inventory
 - **lista_de_utilizadores.pk** - Customer database
 - **lista_de_compras.pk** - Transaction history
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - [ ] Search functionality for vehicles and users
 - [ ] Edit and delete operations
@@ -167,7 +167,7 @@ Data is persisted using Python's pickle format (`.pk` files):
 - [ ] Multi-language support
 - [ ] Invoice generation
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To contribute:
 
@@ -181,23 +181,9 @@ Contributions are welcome! To contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Alexandre Martins**
-- GitHub: [@alexandre-martins](https://github.com/alexandre-martins)
-- LinkedIn: [Alexandre Martins](https://linkedin.com/in/alexandre-martins)
+- GitHub: [Dev-Xander](https://github.com/Dev-Xanderr)
+- LinkedIn: Alexandre Martins
 - Email: m.xander.tech@gmail.com
-
-## 🙏 Acknowledgments
-
-- Python community for excellent documentation
-- Contributors and testers
-- Classic motorcycle enthusiasts
-
----
-
-⭐ **Star this repository** if you found it useful!
-
-## 📞 Support
-
-For questions or issues, please open an issue on GitHub or contact the author directly.
