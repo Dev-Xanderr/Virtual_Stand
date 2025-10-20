@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-## 📖 Overview
+##  Overview
 
 **STAND XOCORRO** (Os Clássicos das 2 Rodas) is a command-line vehicle dealership management system designed for managing classic two-wheeled vehicles. The application allows users to manage vehicles, customers (users), and purchases through an intuitive menu-driven interface with persistent data storage.
 
