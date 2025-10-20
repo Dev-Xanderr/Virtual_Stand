@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>veiculos &#8212; stand 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css"/>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css"/>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html"/>
+    <link rel="search" title="Search" href="../search.html"/>
+
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9"/>
+
+</head>
+<body>
+
+
+<div class="document">
+    <div class="documentwrapper">
+        <div class="bodywrapper">
+
+
+            <div class="body" role="main">
+
+                <h1>Source code for veiculos</h1>
+                <div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">io_terminal</span> <span class="kn">import</span> <span
+                        class="n">imprime_lista</span>
+
+<span class="n">nome_ficheiro_lista_de_veiculos</span> <span class="o">=</span> <span class="s2">&quot;lista_de_veiculos.pk&quot;</span>
+
+
+<div class="viewcode-block" id="cria_novo_veiculo"><a class="viewcode-back"
+                                                      href="../veiculos.html#veiculos.cria_novo_veiculo">[docs]</a><span
+        class="k">def</span> <span class="nf">cria_novo_veiculo</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot; Pede ao utilizador para introduzir um novo veiculo</span>
+
+<span class="sd">    :return: dicionario com um veiculo na forma</span>
+<span class="sd">        {&quot;marca&quot;: &lt;&lt;marca&gt;&gt;, &quot;matricula&quot;: &lt;&lt;matricula&gt;&gt;}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">marca</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span
+            class="s2">&quot;marca? &quot;</span><span class="p">)</span>
+    <span class="n">matricula</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span
+            class="s2">&quot;matricula? &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span
+            class="p">()</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;marca&quot;</span><span
+            class="p">:</span> <span class="n">marca</span><span class="p">,</span> <span class="s2">&quot;matricula&quot;</span><span
+            class="p">:</span> <span class="n">matricula</span><span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="imprime_lista_de_veiculos"><a class="viewcode-back"
+                                                              href="../veiculos.html#veiculos.imprime_lista_de_veiculos">[docs]</a><span
+        class="k">def</span> <span class="nf">imprime_lista_de_veiculos</span><span class="p">(</span><span class="n">lista_de_veiculos</span><span
+        class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; ...&quot;&quot;&quot;</span>
+
+    <span class="n">imprime_lista</span><span class="p">(</span><span class="n">cabecalho</span><span class="o">=</span><span
+            class="s2">&quot;Lista de Veiculos&quot;</span><span class="p">,</span> <span class="n">lista</span><span
+            class="o">=</span><span class="n">lista_de_veiculos</span><span class="p">)</span></div>
+</pre>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <h1 class="logo"><a href="../index.html">stand</a></h1>
+
+
+            <h3>Navigation</h3>
+            <p class="caption"><span class="caption-text">Contents:</span></p>
+            <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../io_ficheiros.html">io_ficheiros module</a>
+                </li>
+                <li class="toctree-l1"><a class="reference internal" href="../io_terminal.html">io_terminal module</a>
+                </li>
+                <li class="toctree-l1"><a class="reference internal" href="../main.html">main module</a></li>
+                <li class="toctree-l1"><a class="reference internal" href="../utilizadores.html">utilizadores module</a>
+                </li>
+                <li class="toctree-l1"><a class="reference internal" href="../veiculos.html">veiculos module</a></li>
+            </ul>
+
+            <div class="relations">
+                <h3>Related Topics</h3>
+                <ul>
+                    <li><a href="../index.html">Documentation overview</a>
+                        <ul>
+                            <li><a href="index.html">Module code</a>
+                                <ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="searchbox" style="display: none" role="search">
+                <h3 id="searchlabel">Quick search</h3>
+                <div class="searchformwrapper">
+                    <form class="search" action="../search.html" method="get">
+                        <input type="text" name="q" aria-labelledby="searchlabel"/>
+                        <input type="submit" value="Go"/>
+                    </form>
+                </div>
+            </div>
+            <script>$('#searchbox').show(0);</script>
+
+
+        </div>
+    </div>
+    <div class="clearer"></div>
+</div>
+<div class="footer">
+    &copy;2020, nome do autor.
+
+    |
+    Powered by <a href="http://sphinx-doc.org/">Sphinx 3.3.1</a>
+    &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+
+</div>
+
+
+</body>
+</html>
