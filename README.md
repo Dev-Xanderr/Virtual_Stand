@@ -74,7 +74,7 @@ The application provides the following commands:
    python main.py
    ```
 
-## 💻 Usage
+##  Usage
 
 ### Starting the Application
 Run the main script to launch the menu:
